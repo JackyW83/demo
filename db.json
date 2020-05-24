@@ -1,12 +1,16 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "departments": [
+    { "id": 1, "name": "HSC" },
+    { "id": 2, "name": "LSC" },
+    { "id": 3, "name": "LSG" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "branches": [
+    { "id": 1, "name": "APD", translate: "病理产品", departmentId: "1" },
+    { "id": 2, "name": "MDB", translate: "微生物产品", departmentId: "1" },
+    { "id": 3, "name": "IDD", translate: "免疫诊断", departmentId: "1" },
+    { "id": 4, "name": "LCD", translate: "实验室耗材", departmentId: "2" },
+    { "id": 5, "name": "LPD", translate: "实验室设备", departmentId: "2" },
+    { "id": 6, "name": "BID", translate: "生物科学", departmentId: "3" }
   ],
   "profile": {
     "name": "typicode"
