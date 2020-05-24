@@ -5,12 +5,12 @@
     { "id": 3, "name": "LSG" }
   ],
   "branches": [
-    { "id": 1, "name": "APD", "translate": "病理产品", "departmentId": "1" },
-    { "id": 2, "name": "MDB", "translate": "微生物产品", "departmentId": "1" },
-    { "id": 3, "name": "IDD", "translate": "免疫诊断", "departmentId": "1" },
-    { "id": 4, "name": "LCD", "translate": "实验室耗材", "departmentId": "2" },
-    { "id": 5, "name": "LPD", "translate": "实验室设备", "departmentId": "2" },
-    { "id": 6, "name": "BID", "translate": "生物科学", "departmentId": "3" }
+    { "id": 1, "name": "APD", "translate": "病理产品", "departmentId": 1 },
+    { "id": 2, "name": "MDB", "translate": "微生物产品", "departmentId": 1 },
+    { "id": 3, "name": "IDD", "translate": "免疫诊断", "departmentId": 1 },
+    { "id": 4, "name": "LCD", "translate": "实验室耗材", "departmentId": 2 },
+    { "id": 5, "name": "LPD", "translate": "实验室设备", "departmentId": 2 },
+    { "id": 6, "name": "BID", "translate": "生物科学", "departmentId": 3 }
   ],
   "profile": {
     "name": "typicode"
