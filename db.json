@@ -1,23 +1,23 @@
 {
   "departments": [
-    { "id": 1, "name": "HSC" },
-    { "id": 2, "name": "LSC" },
-    { "id": 3, "name": "LSG" }
+    { "id": 1, "name": "HSC", "createdAt": 1590390532908 },
+    { "id": 2, "name": "LSC", "createdAt": 1590390532908 },
+    { "id": 3, "name": "LSG", "createdAt": 1590390532908 }
   ],
   "branches": [
-    { "id": 1, "name": "APD", "translate": "病理产品", "departmentId": 1 },
-    { "id": 2, "name": "MDB", "translate": "微生物产品", "departmentId": 1 },
-    { "id": 3, "name": "IDD", "translate": "免疫诊断", "departmentId": 1 },
-    { "id": 4, "name": "LCD", "translate": "实验室耗材", "departmentId": 2 },
-    { "id": 5, "name": "LPD", "translate": "实验室设备", "departmentId": 2 },
-    { "id": 6, "name": "BID", "translate": "生物科学", "departmentId": 3 }
+    { "id": 1, "name": "APD", "translate": "病理产品", "departmentId": 1, "createdAt": 1590390532908 },
+    { "id": 2, "name": "MDB", "translate": "微生物产品", "departmentId": 1, "createdAt": 1590390532908 },
+    { "id": 3, "name": "IDD", "translate": "免疫诊断", "departmentId": 1, "createdAt": 1590390532908 },
+    { "id": 4, "name": "LCD", "translate": "实验室耗材", "departmentId": 2, "createdAt": 1590390532908 },
+    { "id": 5, "name": "LPD", "translate": "实验室设备", "departmentId": 2, "createdAt": 1590390532908 },
+    { "id": 6, "name": "BID", "translate": "生物科学", "departmentId": 3, "createdAt": 1590390532908 }
   ],
   "users": [
-    { "id": 1, "name": "admin", "password": "123456", "email": "admin@test.com" },
-    { "id": 1, "name": "cbs_admin", "password": "123456", "email": "cbs_admin@test.com" },
-    { "id": 2, "name": "coa", "password": "123456", "email": "coa@test.com" },
-    { "id": 3, "name": "csr", "password": "123456", "email": "csr@test.com" },
-    { "id": 4, "name": "qa","password": "123456", "email": "qa@test.com" },
-    { "id": 5, "name": "ae", "password": "123456", "email": "ae@test.com" }
+    { "id": 1, "name": "admin", "password": "123456", "email": "admin@test.com", "createdAt": 1590390532908 },
+    { "id": 1, "name": "cbs_admin", "password": "123456", "email": "cbs_admin@test.com", "createdAt": 1590390532908 },
+    { "id": 2, "name": "coa", "password": "123456", "email": "coa@test.com", "createdAt": 1590390532908 },
+    { "id": 3, "name": "csr", "password": "123456", "email": "csr@test.com", "createdAt": 1590390532908 },
+    { "id": 4, "name": "qa","password": "123456", "email": "qa@test.com", "createdAt": 1590390532908 },
+    { "id": 5, "name": "ae", "password": "123456", "email": "ae@test.com", "createdAt": 1590390532908 }
   ]
 }
