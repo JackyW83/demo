@@ -12,7 +12,12 @@
     { "id": 5, "name": "LPD", "translate": "实验室设备", "departmentId": 2 },
     { "id": 6, "name": "BID", "translate": "生物科学", "departmentId": 3 }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    { "id": 1, "name": "admin", "password": "123456", "email": "admin@test.com" },
+    { "id": 1, "name": "cbs_admin", "password": "123456", "email": "cbs_admin@test.com" },
+    { "id": 2, "name": "coa", "password": "123456", "email": "coa@test.com" },
+    { "id": 3, "name": "csr", "password": "123456", "email": "csr@test.com" },
+    { "id": 4, "name": "qa","password": "123456", "email": "qa@test.com" },
+    { "id": 5, "name": "ae", "password": "123456", "email": "ae@test.com" }
+  ]
 }
