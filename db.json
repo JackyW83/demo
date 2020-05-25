@@ -19,5 +19,27 @@
     { "id": 3, "name": "csr", "password": "123456", "email": "csr@test.com", "createdAt": 1590390532908 },
     { "id": 4, "name": "qa","password": "123456", "email": "qa@test.com", "createdAt": 1590390532908 },
     { "id": 5, "name": "ae", "password": "123456", "email": "ae@test.com", "createdAt": 1590390532908 }
-  ]
+  ],
+  "employees" :[
+    {"name":"Daniel Zhang","id":"00246140","email":"daniel.zhang@thermofisher.com"},
+    {"name":"Elva Xu","id":"00219096","email":"Yanhua.xu@thermofisher.com"},
+    {"name":"Lili Shen","id":"00250176","email":"Lili.shen@thermofisher.com"},
+    {"name":"Mari Li","id":"00244785","email":"Lamei.li@thermofisher.com"},
+    {"name":"Yona Zhang","id":"00270531","email":"yan.zhang5@thermofisher.com"},
+    {"name":"Luckey Liu","id":"00198452","email":"Ke.liu@thermofisher.com"},
+    {"name":"Eddie Sun","id":"00193780","email":"eddie.sun@thermofisher.com"},
+    {"name":"Lingle Xi","id":"00189359","email":"linglong.xi@thermofisher.com"},
+    {"name":"Chary Zha","id":"00224353","email":"chary.zha@thermofisher.com"},
+    {"name":"Tina Zhu","id":"00240940","email":"lin.zhu4@thermofisher.com"},
+    {"name":"Xiuwen Hao","id":"00194475","email":"xiuwen.hao@thermofisher.com"},
+    {"name":"Stacy Tao","id":"00255410","email":"qin.tao@thermofisher.com"},
+    {"name":"Echo Zhao","id":"00230570","email":"echo.zhao@thermofisher.com"},
+    {"name":"Ren Gang","id":"00115250","email":"Gang.Ren@thermofisher.com"},
+    {"name":"Ren Gang","id":"00115250","email":"Gang.Ren@thermofisher.com"},
+    {"name":"Krystal Gong","id":"00237726","email":"zexiaohui.gong@thermofisher.com"},
+    {"name":"Carol Zhou","id":"10080841","email":"carol.zhou@thermofisher.com"},
+    {"name":"Sliver Han","id":"10061140","email":"silver.han@thermofisher.com"},
+    {"name":"Shao, Eva","id":"00267757","email":"eva.shao@thermofisher.com"},
+    {"name":"Shuangwen Lv","id":"00207546","email":"shuangwen.lv@thermofisher.com"}
+}
 }
