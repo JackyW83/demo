@@ -14,7 +14,6 @@
   ],
   "employees" :[
     { "id": 41, "name": "admin", "password": "123456", "email": "admin@test.com", "user": true, "createdAt": 1590390532908 },
-    { "id": 51, "name": "admin", "password": "123456", "email": "admin@test.com", "user": true,"createdAt": 1590390532908 },
     { "id": 61, "name": "cbs_admin", "password": "123456", "email": "cbs_admin@test.com", "user": true,"createdAt": 1590390532908 },
     { "id": 72, "name": "coa", "password": "123456", "email": "coa@test.com","user": true, "createdAt": 1590390532908 },
     { "id": 83, "name": "csr", "password": "123456", "email": "csr@test.com","user": true, "createdAt": 1590390532908 },
