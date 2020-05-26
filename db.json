@@ -12,15 +12,14 @@
     { "id": 5, "name": "LPD", "translate": "实验室设备", "departmentId": 2, "createdAt": 1590390532908 },
     { "id": 6, "name": "BID", "translate": "生物科学", "departmentId": 3, "createdAt": 1590390532908 }
   ],
-  "users": [
-    { "id": 1, "name": "admin", "password": "123456", "email": "admin@test.com", "createdAt": 1590390532908 },
-    { "id": 1, "name": "cbs_admin", "password": "123456", "email": "cbs_admin@test.com", "createdAt": 1590390532908 },
-    { "id": 2, "name": "coa", "password": "123456", "email": "coa@test.com", "createdAt": 1590390532908 },
-    { "id": 3, "name": "csr", "password": "123456", "email": "csr@test.com", "createdAt": 1590390532908 },
-    { "id": 4, "name": "qa","password": "123456", "email": "qa@test.com", "createdAt": 1590390532908 },
-    { "id": 5, "name": "ae", "password": "123456", "email": "ae@test.com", "createdAt": 1590390532908 }
-  ],
   "employees" :[
+    { "id": 41, "name": "admin", "password": "123456", "email": "admin@test.com", "user": true, "createdAt": 1590390532908 },
+    { "id": 51, "name": "admin", "password": "123456", "email": "admin@test.com", "user": true,"createdAt": 1590390532908 },
+    { "id": 61, "name": "cbs_admin", "password": "123456", "email": "cbs_admin@test.com", "user": true,"createdAt": 1590390532908 },
+    { "id": 72, "name": "coa", "password": "123456", "email": "coa@test.com","user": true, "createdAt": 1590390532908 },
+    { "id": 83, "name": "csr", "password": "123456", "email": "csr@test.com","user": true, "createdAt": 1590390532908 },
+    { "id": 94, "name": "qa","password": "123456", "email": "qa@test.com", "user": true,"createdAt": 1590390532908 },
+    { "id": 105, "name": "ae", "password": "123456", "email": "ae@test.com","user": true, "createdAt": 1590390532908 },
    {"id": 1,"name":"Daniel Zhang","internal_id":"00246140","email":"daniel.zhang@thermofisher.com"},
 {"id": 2,"name":"Elva Xu","internal_id":"00219096","email":"Yanhua.xu@thermofisher.com"},
 {"id": 3,"name":"Lili Shen","internal_id":"00250176","email":"Lili.shen@thermofisher.com"},
@@ -45,14 +44,25 @@
 {"id": 22,"name":"Group mailbox","internal_id":"","email":"LSC.CustomerCaseManagement@thermofisher.com"},
 {"id": 23,"name":"Carol Zhou","internal_id":"10080841","email":"carol.zhou@thermofisher.com"},
 {"id": 24,"name":"Feini Qin","internal_id":"00238872","email":"feini.qin@thermofisher.com"},
-{"id": 25,"name":"Wu, Eleven ","internal_id":"10821928","email":"eleven.wu@thermofisher.com"},
-{"id": 26,"name":"Karen Ding","internal_id":"10065829","email":"karen.ding@thermofisher.com"},
-{"id": 27,"name":"Yi LU","internal_id":"00191886","email":"yi.lu@thermofisher.com "},
-{"id": 28,"name":"Jane Xie","internal_id":"00181631","email":"Juan.xie@thermofisher.com"},
-{"id": 29,"name":"Rachel Sheng","internal_id":"00251387","email":"shiying.sheng@thermofisher.com"},
-{"id": 30,"name":"Kai Yu","internal_id":"00223670","email":"Kai.yu2@thermofisher.com"}
+{"id": 25,"name":"Wu, Eleven ","internal_id":"10821928","email":"eleven.wu@thermofisher.com"}
 ],
-  
+
+  "root-issues": [
+     {"id": 1,"tpye":"非产品投诉", "name": "营运错发" },
+    {"id": 2,"tpye":"非产品投诉", "name": "客户现场条件不具备" },
+    {"id": 3,"tpye":"非产品投诉", "name": "到货未达到客户期望" },
+    {"id": 4,"tpye":"非产品投诉", "name": "收货 / 安装时物料缺失"},
+    {"id": 5,"tpye":"非产品投诉", "name":"营运错订" },
+    {"id": 6,"tpye":"非产品投诉", "name":"错订-销售" },
+    {"id": 7,"tpye":"产品投诉", "name":"外好内破"  },
+    {"id": 8,"tpye":"产品投诉", "name":"外破内破"  },
+    {"id": 9,"tpye":"产品投诉", "name":"外破内好"  },
+    {"id": 10,"tpye":"产品投诉", "name":"收货/安装时故障"  },
+    {"id": 11,"tpye":"产品投诉", "name":"TPP 质量问题退货"  },
+    {"id": 12,"tpye":"产品投诉", "name":"GC质量问题退货"  },
+    {"id": 13,"tpye":"产品投诉", "name":"DN信息错误"  },
+    {"id": 14,"tpye":"产品投诉", "name":"缺COA"  }
+   ],
   "issues": [
      {"id": 1,"name":"漏发-仓库","causeId":1,"code":"N2"},
       {"id": 2,"name":"错发-仓库 (其他）","causeId":1,"code":"N4-D"},
@@ -77,5 +87,4 @@
       {"id": 19,"name":"TPP 质量问题退货","causeId":13,"code":"Q-TPP"},
       {"id": 20,"name":"GC质量问题退货","causeId":14,"code":"Q-GC"}
   ]
-
 }
