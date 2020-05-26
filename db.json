@@ -52,7 +52,7 @@
 {"id": 29,"name":"Rachel Sheng","internal_id":"00251387","email":"shiying.sheng@thermofisher.com"},
 {"id": 30,"name":"Kai Yu","internal_id":"00223670","email":"Kai.yu2@thermofisher.com"}
 ],
-  "root_causes": [
+  "root-causes": [
      {"id": 1,"tpye":"非产品投诉", "name": "营运错发" },
     {"id": 2,"tpye":"非产品投诉", "name": "客户现场条件不具备" },
     {"id": 3,"tpye":"非产品投诉", "name": "到货未达到客户期望" },
@@ -67,7 +67,7 @@
     {"id": 12,"tpye":"产品投诉", "name":"GC质量问题退货"  },
     {"id": 13,"tpye":"产品投诉", "name":"DN信息错误"  },
     {"id": 14,"tpye":"产品投诉", "name":"缺COA"  }
-   ]
+   ],
   "issues": [
      {"id": 1,"name":"漏发-仓库","causeId":1,"code":"N2"},
       {"id": 2,"name":"错发-仓库 (其他）","causeId":1,"code":"N4-D"},
