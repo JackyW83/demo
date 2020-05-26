@@ -52,7 +52,7 @@
 {"id": 29,"name":"Rachel Sheng","internal_id":"00251387","email":"shiying.sheng@thermofisher.com"},
 {"id": 30,"name":"Kai Yu","internal_id":"00223670","email":"Kai.yu2@thermofisher.com"}
 ],
-  "root-causes": [
+  "root-issues": [
      {"id": 1,"tpye":"非产品投诉", "name": "营运错发" },
     {"id": 2,"tpye":"非产品投诉", "name": "客户现场条件不具备" },
     {"id": 3,"tpye":"非产品投诉", "name": "到货未达到客户期望" },
