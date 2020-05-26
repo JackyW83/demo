@@ -51,6 +51,46 @@
 {"id": 28,"name":"Jane Xie","internal_id":"00181631","email":"Juan.xie@thermofisher.com"},
 {"id": 29,"name":"Rachel Sheng","internal_id":"00251387","email":"shiying.sheng@thermofisher.com"},
 {"id": 30,"name":"Kai Yu","internal_id":"00223670","email":"Kai.yu2@thermofisher.com"}
-]
+],
+  "root_causes": [
+     {"id": 1,"tpye":"非产品投诉", "name": "营运错发" },
+    {"id": 2,"tpye":"非产品投诉", "name": "客户现场条件不具备" },
+    {"id": 3,"tpye":"非产品投诉", "name": "到货未达到客户期望" },
+    {"id": 4,"tpye":"非产品投诉", "name": "收货 / 安装时物料缺失"},
+    {"id": 5,"tpye":"非产品投诉", "name":"营运错订" },
+    {"id": 6,"tpye":"非产品投诉", "name":"错订-销售" },
+    {"id": 7,"tpye":"产品投诉", "name":"外好内破"  },
+    {"id": 8,"tpye":"产品投诉", "name":"外破内破"  },
+    {"id": 9,"tpye":"产品投诉", "name":"外破内好"  },
+    {"id": 10,"tpye":"产品投诉", "name":"收货/安装时故障"  },
+    {"id": 11,"tpye":"产品投诉", "name":"TPP 质量问题退货"  },
+    {"id": 12,"tpye":"产品投诉", "name":"GC质量问题退货"  },
+    {"id": 13,"tpye":"产品投诉", "name":"DN信息错误"  },
+    {"id": 14,"tpye":"产品投诉", "name":"缺COA"  }
+   ]
+  "issues": [
+     {"id": 1,"name":"漏发-仓库","causeId":1,"code":"N2"},
+      {"id": 2,"name":"错发-仓库 (其他）","causeId":1,"code":"N4-D"},
+      {"id": 3,"name":"错发-仓库 (效期问题）","causeId":1,"code":"N4-D1"},
+      {"id": 4,"name":"设施不具备，如地点、水电等设施不具备","causeId":2,"code":"S1"},
+      {"id": 5,"name":"环境不具备，如温湿度通风等条件不具备","causeId":2,"code":"S2"},
+
+{"id": 6,"name":"产品-产品性能达标，但不符合客户的要求和期望","causeId":3,"code":""},
+      {"id": 7,"name":"协议-未满足销售与客户的协议约定","causeId":3,"code":""},
+      {"id": 8,"name":"外包装完好，物流导致内物破损","causeId": 7,"code":""},
+      {"id": 9,"name":"外包装完好，安装导致内物破损","causeId":7,"code":""},
+      {"id": 10,"name":"外包装破损，物流导致内物破损","causeId":7,"code":""},
+
+{"id": 11,"name":"物流导致破损","causeId":9,"code":"T2"},
+      {"id": 12,"name":"经销商原因导致破损","causeId":9,"code":"T3"},
+      {"id": 13,"name":"耗材","causeId":10,"code":"P1"},
+      {"id": 14,"name":"软件","causeId":10,"code":"P3"},
+      {"id": 15,"name":"第三方配件","causeId":10,"code":"P4"},
+{"id": 16,"name":"多次故障，可维修，客户不愿再维修","causeId":11,"code":"HT1"},
+      {"id": 17,"name":"本地无法修复，需返厂维修","causeId":11,"code":"HT5"},
+      {"id": 18,"name":"单次故障，可维修，客户不愿维修","causeId":12,"code":"HT7"},
+      {"id": 19,"name":"TPP 质量问题退货","causeId":13,"code":"Q-TPP"},
+      {"id": 20,"name":"GC质量问题退货","causeId":14,"code":"Q-GC"}
+  ]
 
 }
