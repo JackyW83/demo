@@ -42,9 +42,8 @@
 {"id": 21,"name":"Grace Gao","internal_id":"00263488","email":"grace.gao@thermofisher.com"},
 {"id": 22,"name":"Group mailbox","internal_id":"","email":"LSC.CustomerCaseManagement@thermofisher.com"},
 {"id": 23,"name":"Carol Zhou","internal_id":"10080841","email":"carol.zhou@thermofisher.com"},
-{"id": 24,"name":"Feini Qin","internal_id":"00238872","email":"feini.qin@thermofisher.com"},
-{"id": 25,"name":"Wu, Eleven ","internal_id":"10821928","email":"eleven.wu@thermofisher.com"}
-],
+{"id": 24,"name":"Feini Qin","internal_id":"00238872","email":"feini.qin@thermofisher.com"}
+  ],
 
   "root-issues": [
      {"id": 1,"tpye":"非产品投诉", "name": "营运错发" },
