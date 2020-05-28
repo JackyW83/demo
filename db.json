@@ -2,7 +2,7 @@
   "departments": [
     { "id": 1, "name": "HSC", "cc_handler": 1, "cc_investigator": 2, "issues": [13, 14], "cc_pms": 5, "people": [1, 2, 5, 7, 8], "createdAt": 1590390532908 },
     { "id": 2, "name": "LSC", "cc_handler": 3, "cc_investigator": 4, "issues": [13, 14], "cc_pms": 6, "people": [3, 4, 9, 15],  "createdAt": 1590390532908 },
-    { "id": 3, "name": "LSG", "people": [16, 21], "createdAt": 1590390532908 }
+    { "id": 3, "name": "LSG", "people": [16, 21],  "issues": [],"createdAt": 1590390532908 }
   ],
   "branches": [
     { "id": 1, "name": "APD", "translate": "病理产品", "departmentId": 1,  "handler" : 5, "pae": 7, "pms":8,  "issues":[ { "id": 1,"investigator": 6 }, { "id": 12 , "investigator": 10 } ], "createdAt": 1590390532908 },
