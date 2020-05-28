@@ -8,9 +8,9 @@
     { "id": 1, "name": "APD", "translate": "病理产品", "departmentId": 1, "factories": [{ "qc": 5, "site": "Vantaa", "email": "test123@test.com; test321@test.com"}, { "qc": 4, "site": "B.R.A.H.M.S", "email": "test123@test.com; test321@test.com"}], "handler" : 5, "pae": 7, "pms":8,  "issues":[ { "id": 1,"investigator": 6 }, { "id": 12 , "investigator": 10 } ], "createdAt": 1590390532908 },
     { "id": 2, "name": "MDB", "translate": "微生物产品", "departmentId": 1, "factories": [{ "qc": 5, "site": "Asheville", "email": "test123@test.com; test321@test.com"}, { "qc": 4, "site": "Oxoid", "email": "test123@test.com; test321@test.com"}], "handler":8, "pae": 11, "pms":12, "createdAt": 1590390532908 },
     { "id": 3, "name": "IDD", "translate": "免疫诊断", "departmentId": 1, "factories": [{ "qc": 5, "site": "Osterode", "email": "test123@test.com; test321@test.com"}, { "qc": 4, "site": "TREK", "email": "test123@test.com; test321@test.com"}], "createdAt": 1590390532908 },
-    { "id": 4, "name": "LCD", "translate": "实验室耗材", "departmentId": 2,   "handler" :6, "pae": 11, "pms":21,  "issues":[ { "id": 3,"investigator": 17 }, { "id": 5 , "investigator": 19 } ],   "createdAt": 1590390532908 },
+    { "id": 4, "name": "LCD", "translate": "实验室耗材", "departmentId": 2,   "handler" :6, "pae": 11, "pms":21,  "issues":[ { "id": 3,"investigator": 17 }, {"id": 21, "investigator": 21}, { "id": 5 , "investigator": 19 } ],   "createdAt": 1590390532908 },
     { "id": 5, "name": "LPD", "translate": "实验室设备", "departmentId": 2, "createdAt": 1590390532908 },
-    { "id": 6, "name": "BID", "translate": "生物科学", "departmentId": 3,  "handler" : 2, "pae": 9, "pms":12,  "issues":[ { "id": 4,"investigator": 22 }, { "id": 7 , "investigator": 24 } ],   "createdAt": 1590390532908 }
+    { "id": 6, "name": "BID", "translate": "生物科学", "departmentId": 3,  "handler" : 2, "pae": 9, "pms":12,  "issues":[ { "id": 4,"investigator": 22 },{"id": 21, "investigator": 22}, { "id": 7 , "investigator": 24 } ],   "createdAt": 1590390532908 }
   ],
   "employees" :[
     { "id": 41, "name": "admin", "password": "123456", "email": "admin@test.com", "user": true, "createdAt": 1590390532908 },
@@ -77,6 +77,7 @@
 {"id": 11,"name":"物流导致破损","causeId":9,"code":"T2"},
       {"id": 12,"name":"经销商原因导致破损","causeId":9,"code":"T3"},
       {"id": 13,"name":"耗材","causeId":10,"code":"P1"},
+     {"id": 21,"name":"硬件","causeId":10,"code":"P2"},
       {"id": 14,"name":"软件","causeId":10,"code":"P3"},
       {"id": 15,"name":"第三方配件","causeId":10,"code":"P4"},
 {"id": 16,"name":"多次故障，可维修，客户不愿再维修","causeId":11,"code":"HT1"},
